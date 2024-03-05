@@ -1,0 +1,58 @@
+<svg width=100% height=100% xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the chart area -->
+  <rect x="100" y="50" width="900" height="400" fill="lightgray" stroke="black" stroke-width="2" />
+  <text x="100" y="40" font-size="22">Yearly Average Rainfallin inches in Boston 2011-2019</text>
+  <!-- Y-axis labels and ticks -->
+  <text x="95" y="65" font-size="18" text-anchor="end">70</text>
+  <text x="95" y="120" font-size="18" text-anchor="end">60</text>
+  <text x="95" y="175" font-size="18" text-anchor="end">50</text>
+  <text x="95" y="230" font-size="18" text-anchor="end">40</text>
+  <text x="95" y="285" font-size="18" text-anchor="end">30</text>
+  <text x="95" y="340" font-size="18" text-anchor="end">20</text>
+  <text x="95" y="395" font-size="18" text-anchor="end">10</text>
+  <text x="95" y="450" font-size="18" text-anchor="end">0</text>
+  <line x1="100" y1="50" x2="100" y2="450" stroke="black" stroke-width="2" />
+
+  <!-- X-axis labels and ticks -->
+  <text x="150" y="500" font-size="18" text-anchor="middle">2011</text>
+  <text x="250" y="500" font-size="18" text-anchor="middle">2012</text>
+  <text x="350" y="500" font-size="18" text-anchor="middle">2013</text>
+  <text x="450" y="500" font-size="18" text-anchor="middle">2014</text>
+  <text x="550" y="500" font-size="18" text-anchor="middle">2015</text>
+  <text x="650" y="500" font-size="18" text-anchor="middle">2016</text>
+  <text x="750" y="500" font-size="18" text-anchor="middle">2017</text>
+  <text x="850" y="500" font-size="18" text-anchor="middle">2018</text>
+  <text x="950" y="500" font-size="18" text-anchor="middle">2019</text>
+  <line x1="100" y1="450" x2="700" y2="450" stroke="black" stroke-width="2" />
+
+  <path d="M150 120 L250 230 L350 235 L450 208 L550 307 L650 274 L750 219 L850 170 L950 203 L950 450 L150 450 Z" style="fill:cornflowerblue;stroke:midnightblue;stroke-width:3" />
+
+  <!-- Plot the data points as teardrops with rainfall values -->
+  <circle cx="150" cy="120" r="15" fill="blue" />
+  <text x="150" y="125" font-size="12" text-anchor="middle" fill="white">60</text>
+
+  <circle cx="250" cy="230" r="15" fill="blue" />
+  <text x="250" y="235" font-size="12" text-anchor="middle" fill="white">40</text>
+
+  <circle cx="350" cy="235" r="15" fill="blue" />
+  <text x="350" y="240" font-size="12" text-anchor="middle" fill="white">39</text>
+
+  <circle cx="450" cy="208" r="15" fill="blue" />
+  <text x="450" y="213" font-size="12" text-anchor="middle" fill="white">44</text>
+
+  <circle cx="550" cy="307" r="15" fill="blue" />
+  <text x="550" y="312" font-size="12" text-anchor="middle" fill="white">26</text>
+
+  <circle cx="650" cy="274" r="15" fill="blue" />
+  <text x="650" y="279" font-size="12" text-anchor="middle" fill="white">32</text>
+
+  <circle cx="750" cy="219" r="15" fill="blue" />
+  <text x="750" y="224" font-size="12" text-anchor="middle" fill="white">42</text>
+
+  <circle cx="850" cy="170" r="15" fill="blue" />
+  <text x="850" y="175" font-size="12" text-anchor="middle" fill="white">51</text>
+
+  <circle cx="950" cy="203" r="15" fill="blue" />
+  <text x="950" y="208" font-size="12" text-anchor="middle" fill="white">45</text>
+
+</svg>
